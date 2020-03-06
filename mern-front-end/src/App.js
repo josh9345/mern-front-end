@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Search from './search'
+import DisplayBox from './DisplayBox'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         </p>
       </header>
       <Search />
+      <DisplayBox />
     </div>
   );
 }

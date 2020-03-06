@@ -3,7 +3,8 @@
 }
 
 .sideBar{
-  width: 25%;
+  position: absolute;
+  width: 17%;
   height: 75vh;
   display: flex;
   justify-content: start;
@@ -15,6 +16,7 @@
   width: 40%;
   margin: 0 auto;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .App-header {
@@ -27,4 +29,22 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.displayBox{
+  position: relative;
+  height: 50vh;
+  width: 40%;
+  margin: 0 auto;
+  margin-right: 20%;
+  box-shadow: 7px 85px 10px 10px rgba(0, 0, 0, 0.4);
+}
+.displayImage{
+  height: 100%;
+  background-image: url('https://www.thespruceeats.com/thmb/tutG-HgI_CpeHwUYQkdXI3VvXC8=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-480379752-588cb5de3df78caebc869bcf.jpg');
+  background-position: 35% 70%;
+}
+.displayText{
+  background: rgba(0,0,0,0.4);
+  box-shadow: inset 5px 5px 20px 20px rgba(0, 0, 0, 0.4) ;
+  color: white;
+  margin-bottom: -23px;
+}
