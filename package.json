@@ -1,0 +1,19 @@
+{
+  "name": "mern-front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josh9345/mern-front-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josh9345/mern-front-end/issues"
+  },
+  "homepage": "https://github.com/josh9345/mern-front-end#readme"
+}
