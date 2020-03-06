@@ -2,16 +2,20 @@
   text-align: center;
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.sideBar{
+  width: 25%;
+  height: 75vh;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  background: rgba(18, 38, 226, 0.5);
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
+}
+.button{
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
 
 .App-header {
   background-color: #282c34;
