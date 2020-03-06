@@ -5,7 +5,7 @@
 .sideBar{
   position: absolute;
   width: 17%;
-  height: 75vh;
+  height: 80vh;
   display: flex;
   justify-content: start;
   flex-direction: column;
@@ -40,7 +40,7 @@
 .displayImage{
   height: 100%;
   background-image: url('https://www.thespruceeats.com/thmb/tutG-HgI_CpeHwUYQkdXI3VvXC8=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-480379752-588cb5de3df78caebc869bcf.jpg');
-  background-position: 35% 70%;
+  background-position: 50% 75%;
 }
 .displayText{
   background: rgba(0,0,0,0.4);

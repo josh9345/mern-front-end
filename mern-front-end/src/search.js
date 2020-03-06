@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './App.css';
-import { Component } from 'react';
 
 class search extends Component{
     constructor(){
@@ -10,6 +9,52 @@ class search extends Component{
         }
     }
 render(){
+    let baseURL= "http://localhost:8080/recipes"
+    let SearchIng = (e)=>{
+        e.preventDefault();
+        fetch(baseURL +`/ingredients/${e.target[0].value}`)
+        .then((res)=>{
+            return res.json()
+        })
+        .then((res)=>{
+            this.setState({
+                search: res
+            })
+        })
+        .then((res)=>{
+            console.log(this.state.search)
+        })
+}
+let SearchName = (e)=>{
+    e.preventDefault();
+    fetch(baseURL +`/name/${e.target[0].value}`)
+    .then((res)=>{
+        return res.json()
+    })
+    .then((res)=>{
+        this.setState({
+            search: res
+        })
+    })
+    .then((res)=>{
+        console.log(this.state.search)
+    })
+}
+let SearchDish = (e)=>{
+    e.preventDefault();
+    fetch(baseURL +`/dishType/${e.target[0].value}`)
+    .then((res)=>{
+        return res.json()
+    })
+    .then((res)=>{
+        this.setState({
+            search: res
+        })
+    })
+    .then((res)=>{
+        console.log(this.state.search)
+    })
+}
 
     return (
         <div>
