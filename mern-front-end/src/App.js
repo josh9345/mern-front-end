@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Search from './search'
 import DisplayBox from './DisplayBox'
+import SearchDisBox from './SearchDisBox'
 
 function App() {
   return (

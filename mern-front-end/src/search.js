@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
+import SearchDisBox from './SearchDisBox'
 
 class search extends Component{
     constructor(){
@@ -73,6 +74,7 @@ let SearchDish = (e)=>{
                 <input className='button'  type='submit'></input> 
                 </form>
             </div>
+            <SearchDisBox value={this.state.search}/>
           
             
         </div>
