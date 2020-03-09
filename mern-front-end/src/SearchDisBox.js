@@ -11,7 +11,9 @@ class SearchDisBox extends Component {
             results= search.map(item =>{
             return  <div className = 'result'>
                 <div><img src={item.image}></img></div>
-                <div><h2>{item.title} </h2> <br/><h5>ingredients:  </h5>{item.ingredients.join(' , ')} <h5> DishTypes:  </h5>{item.dishTypes.join(' , ')}</div>
+                <div><h2>{item.title} </h2> <br/><h5>ingredients:  </h5>
+                {item.ingredients.join(' , ')} <h5> DishTypes:  </h5>
+                {item.dishTypes.join(' , ')}</div>
                 </div>
             })
         
