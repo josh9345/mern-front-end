@@ -2,7 +2,6 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Search from './search'
-import DisplayBox from './DisplayBox'
 import SearchDisBox from './SearchDisBox'
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
         </p>
       </header>
       <Search />
-      <DisplayBox />
     </div>
   );
 }

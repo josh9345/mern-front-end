@@ -1,12 +1,24 @@
 import React, { Component } from 'react';
-import search from './search'
+import Search from './search'
+import "./App.css"
 
 class SearchDisBox extends Component {
     render(props){
-    console.dir(this.props.value)
+        let search = this.props.value;
+        let results= ''
+    console.log(this.props.value)
+        
+            results= search.map(item =>{
+            return  <div className = 'result'>
+                <div><img src={item.image}></img></div>
+                <div><h2>{item.title} </h2> <br/><h5>ingredients:  </h5>{item.ingredients.join(' , ')} <h5> DishType:  </h5>{item.dishTypes.join(' , ')}</div>
+                </div>
+            })
+        
+
     return (
-        <div>
-            
+        <div className='Container'>
+            <div>{results}</div>
         </div>
     );
     }

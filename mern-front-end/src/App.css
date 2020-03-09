@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding:0;
+}
 .App {
   text-align: center;
 }
@@ -35,7 +39,7 @@
   width: 40%;
   margin: 0 auto;
   margin-right: 20%;
-  box-shadow: 7px 85px 10px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 15px 50px 10px 10px rgba(0, 0, 0, 0.4);
 }
 .displayImage{
   height: 100%;
@@ -46,5 +50,22 @@
   background: rgba(0,0,0,0.4);
   box-shadow: inset 5px 5px 20px 20px rgba(0, 0, 0, 0.4) ;
   color: white;
-  margin-bottom: -23px;
+  margin-bottom: 5px;
+}
+.Container{
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  margin-top: 35%;
+  width: 90%;
+}
+.result{
+  display: flex;
+  margin-top: 25px;
+  flex-direction: row;
+  max-width: 100%;
+  word-break: break-all;
+  box-shadow: 20px 10px 5px 5px rgba(0, 0, 0, 0.4);
+  
+
 }
