@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-         test
+         Josh's Recipes
         </p>
       </header>
       <Search />
