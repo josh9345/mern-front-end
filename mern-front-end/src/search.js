@@ -11,7 +11,7 @@ class search extends Component{
         }
     }
 render(){
-    let baseURL= "http://localhost:8080/recipes"
+    let baseURL= "https://josh-recipe-api.herokuapp.com/recipes"
     let SearchIng = (e)=>{
         e.preventDefault();
         fetch(baseURL +`/ingredients/${e.target[0].value}`)
