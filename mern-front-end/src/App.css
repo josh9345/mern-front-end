@@ -1,7 +1,4 @@
-*{
-  margin: 0;
-  padding:0;
-}
+
 .App {
   text-align: center;
 }
@@ -39,7 +36,7 @@
   width: 40%;
   margin: 0 auto;
   margin-right: 20%;
-  box-shadow: 15px 50px 10px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 15px 120px 10px 10px rgba(0, 0, 0, 0.4);
 }
 .displayImage{
   height: 100%;
@@ -65,7 +62,11 @@
   flex-direction: row;
   max-width: 100%;
   word-break: break-all;
-  box-shadow: 20px 10px 5px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.4);
   
-
+}
+.quote{
+  margin-left: 10%;
+  margin-top: 125px;
+  
 }
