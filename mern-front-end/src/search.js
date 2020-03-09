@@ -76,7 +76,7 @@ let SearchDish = (e)=>{
                 </form>
             </div>
             <Displaybox />
-             <div className='quote'><q >best recipe website around </q><br/>-Josh</div>
+             <div className='quote'><q >best recipe website  </q><br/>-Josh</div>
             <SearchDisBox value={this.state.search}/>
            
           
