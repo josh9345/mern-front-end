@@ -2,6 +2,10 @@
 
 this application was built to allow users to search for recipes by key ingredient or dish type. this project was built from the ground up including database, api and front end using the MERN stack. once on the website you can select which search criteria you wish to use then click submit or hit enter this will load all the results at the bottom of the page.
 
+###### Note
+
+Please allow a second or two after searching for the items to populate the data set is quite large.
+
 ## Bugs and known issues
 
 1. after switching from netlify to surge the button style has gone away, the buttons still work.
