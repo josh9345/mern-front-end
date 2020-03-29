@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/josh9345/mern-front-end/issues"
   },
-  "homepage": "https://github.com/josh9345/mern-front-end#readme"
+  "homepage": "https://github.com/josh9345/mern-front-end#readme",
+  "dependencies": {
+    "netlify": "^4.0.0"
+  }
 }
